@@ -1,0 +1,92 @@
+fun main(args:Array<String>){
+	println("Hello World")
+	var radius: Int =29
+	var candy : String ="fun dip"
+	var pi : Double =3.14
+	var c=pi.toInt() * radius * 2 //answer is 30 
+	var isLightOn : Boolean = true
+	var valueRadius : Boolean = radius > 10
+	var topCandy : List<String> = listOf("fun","Dip","Snikkers")
+	var topCandy : Array<String> = arrayOf("fun","Dip","Snikkers")
+
+	var topCandy : MutableList<String> = mutablelIstOf("fun","Dip","Snikkers")
+	// comments
+	/* */ comments
+
+	radius -=11
+
+	if(isLightOn){
+		println("You can walk across the road")
+	}
+	else
+	{	 println("Dont walk")
+	}
+
+	println(topCandy[1])     //Dip  
+
+	top.Candy.add(0,"Black Thunder")  // print the list :- Black Thunder, fun,Dip,Snikkers
+
+
+	for (x in 1..100)
+	{ println(x)}       // 1 2 3 ... 100
+
+	var topCandy : MutableList<String> = mutablelIstOf("fun","Dip","Snikkers")
+	for (x in topCandy)
+	{ println(x)}
+
+	for (x in 1..topCandy.size-1)
+	{ println(x)}
+
+
+	fun addTwoNumbers(number1 : Int, number2: Int)
+{ return number1+number2}
+	var result= addTwoNumbers(2,5)
+	println(result)
+
+
+
+	class Dog(){
+		var name=""
+		var age=0
+		var furColor = ""
+		
+		fun dogInfo() : String {
+			return name +"is"+age+"years old and has"+ furcolor+"fur"
+		}
+	}
+
+	var myDog = Dog()
+
+	myDog.age=8
+	myDog.name="Fido"
+	myDog.furColor="Brown"
+	println(myDog.dogInfo())
+
+	var theOtherDog = Dog()
+
+	theOtherDog.age=12
+	theOtherDog.name="Sara"
+	theOtherDog.furColor="Black"
+	println(theOtherDog.dogInfo())
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
